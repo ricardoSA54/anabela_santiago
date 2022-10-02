@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1662148161 "c:/Users/ricar/Documents/GitHub/anabela_santiago/fada_das_flores/fada_das_flores.tex" "fada_das_flores.pdf" "fada_das_flores" 1662148164
-  "C:/Users/ricar/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1661162809 172187 894d894f86ce9897a150a972701299ed ""
+["pdflatex"] 1664015338 "c:/Users/ricar/Documents/GitHub/anabela_santiago/fada_das_flores/fada_das_flores.tex" "fada_das_flores.pdf" "fada_das_flores" 1664015341
+  "C:/Users/ricar/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1662728540 172187 894d894f86ce9897a150a972701299ed ""
   "C:/Users/ricar/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1660729804 10359607 488816145bfbfcf3eb9cda876aaf9724 ""
   "C:/Users/ricar/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "C:/Users/ricar/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -40,9 +40,9 @@
   "C:/Users/ricar/AppData/Local/Programs/MiKTeX/tex/latex/tools/dcolumn.sty" 1636713860 2758 fa75314f660944f1b7aba9a1a491ef26 ""
   "C:/Users/ricar/AppData/Local/Programs/MiKTeX/tex/latex/tools/delarray.sty" 1636713860 2157 4342772444d9401ac0f844e1becc8668 ""
   "C:/Users/ricar/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1636713860 7147 5ac8a9ef36411064b1a501137af0fa54 ""
-  "c:/Users/ricar/Documents/GitHub/anabela_santiago/fada_das_flores/fada_das_flores.tex" 1662148156 12290 be6bab1ddc8be8913e20743f0e7d0d8e ""
-  "fada_das_flores.aux" 1662148164 129 3e9853ae05446917099c2c07d506dfd4 "pdflatex"
-  "fada_das_flores.tex" 1662148156 12290 be6bab1ddc8be8913e20743f0e7d0d8e ""
+  "c:/Users/ricar/Documents/GitHub/anabela_santiago/fada_das_flores/fada_das_flores.tex" 1664015333 12294 d72ba64ce75d8326322d846a899c259d ""
+  "fada_das_flores.aux" 1664015341 129 3e9853ae05446917099c2c07d506dfd4 "pdflatex"
+  "fada_das_flores.tex" 1664015333 12294 d72ba64ce75d8326322d846a899c259d ""
   "images//a_dormir.jpg" 1660213268 846855 9e8e2b5006b93fd22e3017ca2818689c ""
   "images//a_espreitar_os_namorados.jpg" 1660213268 933809 27c9b722f683d32451cbfbe4456ba689 ""
   "images//cuidando_das_flores.jpg" 1660213268 1040246 9352ca5a48f736827e27244bdbcd5d57 ""

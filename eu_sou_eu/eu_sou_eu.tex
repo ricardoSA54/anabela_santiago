@@ -1,0 +1,114 @@
+\documentclass[12pt, a4paper, twoside]{memoir}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx} % package to handle images
+\graphicspath{ {images/}} % Location of images
+
+\title{\textbf{Eu sou Eu de um outro Mundo}}
+% \titlepic{\includegraphics[width=\textwidth]{voando}}
+%\author{Anabela Santiago}
+\author{Anabela Santiago\\[5mm] \includegraphics[width=6in]{capa}}
+\date{}
+\usepackage[none]{hyphenat} %avoids hyphens
+
+%to remove numbering from chapters
+\setsecnumdepth{none}
+\maxsecnumdepth{none}
+
+% \textbf{}    % BOLD
+% \textit{}    % ITALIC
+% \underline{} % UNDERLINE
+% \emph{}      % EMPHASIZE (context dependent)
+
+% Convert to html
+%must be run with the folder of old doc as root folder
+% pandoc eu_sou_eu.tex -t html -o eu_sou_eu.html
+
+
+\begin{document}
+\frontmatter
+\aliaspagestyle{title}{empty} % suppress the page number after \maketitle
+\pagestyle{empty}
+\maketitle
+\newpage\null\thispagestyle{empty}\newpage %empty page
+
+\vspace*{1cm} % * is required since it's at the top of page
+\begin{center}
+    \textbf{
+        Eu sou Eu de um outro Mundo
+    }
+\end{center}
+
+\begin{vplace}
+    \textbf{Autora:} Anabela Santiago
+    \bigbreak
+    \textbf{Ilustração:} Gabi Oliveira
+    % \bigbreak
+    % \textbf{Revisão/formatação do texto:} Ricardo Santiago
+    % \bigbreak
+    % \textbf{Tradução do texto para norueguês:} Linda Olson, Pedro Santiago
+
+    % \textbf{Tradução do texto para francês:} Julia Dayon, Ricardo Santiago
+    % \bigbreak
+\end{vplace}
+Registo da Obra Literária: IGAC
+
+\vfill
+\begin{center}
+    1ª Edição – 2013
+\end{center}
+
+\newpage
+\newpage\null\thispagestyle{empty}\newpage %empty page
+
+\begin{KeepFromToc}
+\tableofcontents
+\thispagestyle{empty}
+\end{KeepFromToc}
+\newpage
+
+\begin{vplace}[4]
+    \begin{flushright}
+        Voa, voa Borboleta e leva-me para o meu Planeta...
+    \end{flushright}
+\end{vplace}
+\newpage
+
+\mainmatter
+\pagestyle{plain}
+%\newpage\null\thispagestyle{empty}\newpage %empty page
+
+\chapter{PRÓLOGO}
+\input{elements/prologo}
+
+\chapter{A CHEGADA AO JARDIM}
+\input{elements/a_chegada_ao_jardim}
+
+\chapter{QUEM SOU EU}
+\input{elements/quem_sou_eu}
+
+\chapter{A PORTA DA CASA ABRE-SE}
+\input{elements/a_porta_da_casa_abre_se}
+
+\chapter{NO MUNDO DA LUA}
+\input{elements/no_mundo_da_lua}
+
+\chapter{O PORQUÊ DA ESCOLHA DESTE JARDIM}
+\input{elements/o_porque_da_escolha_deste_jardim}
+
+\chapter{UMA VIAGEM PELOS REINOS}
+\input{elements/uma_viagem_pelos_reinos}
+
+\chapter{MAS AFINAL, O QUE É O AMOR?}
+\input{elements/mas_afinal_o_que_e_o_amor}
+
+\chapter{A DESPEDIDA DO JARDIM}
+\input{elements/a_despedida_do_jardim}
+
+\chapter{EPÍLOGO}
+\input{elements/epilogo}
+
+
+\chapter{Sinopse}
+\input{elements/sinopse}
+
+\end{document}
