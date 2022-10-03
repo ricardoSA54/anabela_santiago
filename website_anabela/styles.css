@@ -93,6 +93,12 @@ a:hover{
     background-color: white;
   }
 
+  .meta{
+    background-color: white;
+    text-align: center;
+    padding: 180px 0px 1px 0px;
+  }
+
   .pdf_link{
     width:100%;
     float:right;
